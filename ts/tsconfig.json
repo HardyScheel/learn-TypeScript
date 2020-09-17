@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        // Specifies which default library (lib.d.ts) to use.
+        "target": "es6",
+        // Specifies the module system, when generating module code.
+        "module": "commonjs",
+        // Compile the whole folder: Type `tsc` and the TypeScript compiler knows to look at your tsconfig.json for project settings and compiler options.
+        "outDir": "compiledToJS",
+        
+        "sourceMap": true,
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "node_modules",
+        "tmp",
+        "temp",
+        "jspm_packages",
+    ]
+}
