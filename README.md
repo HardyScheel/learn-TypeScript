@@ -1,7 +1,5 @@
 # TypeScript code snippet library
-A library with examples and exercises in TypeScript version 4.
-
-This code is inspired by the [official TypeScript Handbook](https://www.typescriptlang.org/docs/handbook).
+A library with examples and exercises in TypeScript version 4. This code is inspired by the [official TypeScript Handbook](https://www.typescriptlang.org/docs/handbook).
 
 ## Installing the TypeScript compiler
 
