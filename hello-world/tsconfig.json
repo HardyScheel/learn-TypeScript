@@ -5,7 +5,7 @@
         // Specifies the module system, when generating module code.
         "module": "commonjs",
         // Compile the whole folder: Type `tsc` and the TypeScript compiler knows to look at your tsconfig.json for project settings and compiler options.
-        "outDir": "out",
+        "outDir": "out-ts",
         // Source maps for debugging TypeScript in combination with the executing JavaScript code.
         "sourceMap": true,
     },
