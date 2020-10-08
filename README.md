@@ -1,9 +1,17 @@
-# TypeScript code snippet library
-A library with examples and exercises in TypeScript version 4.
+# Learn TypeScript
 
-This code is inspired by the the following tutorials:
-* [official TypeScript Handbook](https://www.typescriptlang.org/docs/handbook)
-* [tektutorialshub.com](https://www.tektutorialshub.com/typescript-tutorial/)
+A library with examples and exercises in TypeScript. There is many documentation and implementation that you can explore to learn, and also to use for yourself.
+
+The learning order and thematic is oriented by following tutorials:
+
+* [Official TypeScript Handbook](https://www.typescriptlang.org/docs/handbook)
+* [TypeScript tutorial at tektutorialshub.com](https://www.tektutorialshub.com/typescript-tutorial/)
+
+## Things I use
+
+* TypeScript 4
+* [Visual Studio Code](https://code.visualstudio.com)
+* Node.js 12 & npm
 
 ## Installing the TypeScript compiler
 
@@ -53,7 +61,7 @@ You can use JSDoc. Keep in mind that when using JSDoc for TypeScript code, you s
 
 The data type is an attribute of data which tells us what kind of value the data has.
 
-![TypeScript-Types-1024x423.png](./assets/TypeScript-Types-1024x423.png)
+![TypeScript-Types-1024x423.png](./assets/img/TypeScript-Types-1024x423.png)
 
 TypeScript supports 7 primitive types:
 * `number`
@@ -105,3 +113,29 @@ let sentence: string =`Hello, welcome to the world of typescript,
 ### symbol
 
 New to ES6. It represents the javaScript symbol primitive type. It represents unique tokens that may be used as keys for object properties. It is created by the global Symbol() function. Each time the Symbol() function is called, a new unique symbol is returned.
+
+# License
+
+All my publications in this project are free to use and are subject to the [MIT](/LICENSE) license.
+
+MIT License
+
+Copyright (c) 2020 Hardy Scheel
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
